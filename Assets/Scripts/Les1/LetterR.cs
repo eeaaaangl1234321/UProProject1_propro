@@ -25,9 +25,4 @@ public class LetterR : MonoBehaviour, ILetter
         mat = GetComponent<MeshRenderer>().material;
         currentColor = mat.color;
     }
-
-     void Update()
-    {
-        
-    }
 }

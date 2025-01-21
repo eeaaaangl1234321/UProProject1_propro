@@ -21,5 +21,5 @@ public class LetterC : MonoBehaviour, ILetter
     void Start()
     {
         mat = GetComponent<MeshRenderer>().material;
-     }
+    }
 }

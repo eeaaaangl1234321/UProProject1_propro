@@ -11,7 +11,7 @@ public class LetterClick : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out RaycastHit hit))
                 if (hit.collider.GetComponent<ILetter>() != null)
-                    hit.collider.GetComponent<ILetter>().Click() ;
+                    hit.collider.GetComponent<ILetter>().Click();
         }
     }
 }
